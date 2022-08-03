@@ -1,0 +1,135 @@
+body {
+  background-color: white;
+  margin: 0;
+  text-align: center;
+  font-family: 'Lora', serif;
+  font-size: 2em;
+  color: #40514E;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 200px;
+}
+
+hr{
+  border: dotted #EAF6F6 12px;
+  border-top: none;
+  width: 4%;
+  margin: 50px auto;
+}
+
+.sitemark {
+color: #EAF6F6;
+}
+span {
+  text-decoration: underline;
+}
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Tangerine', cursive;
+  font-size: 9rem;;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 3rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-size: 1.5rem
+}
+
+a {
+  color: #11999E;}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 100px
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  top: 500px;
+  margin-top: 50px;
+}
+
+.profilephoto {
+  margin-top: 50px;
+  width: 10%;
+  height: 10%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px;
+  text-align: left;
+  line-height: 2;
+}
+
+.uke {
+  width: 35%;
+  float: left;
+  margin-right: 30px;
+}
+.gym {
+  width: 35%;
+  float: right;
+  margin-left: 30px;
+}
+.middle-container {
+  margin: 100 0;
+}
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+p {
+line-height: 2;
+}
+
+.bottom-container {
+  margin-top: 50px;
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+a:hover {
+color: #EAF6E6;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #66BFBF;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto;
+}
